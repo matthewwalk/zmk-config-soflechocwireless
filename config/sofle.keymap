@@ -10,8 +10,16 @@
 #include <dt-bindings/zmk/keys.h>
 
 // Encoder resolutions
-&left_encoder   { resolution = <2>; };
-&right_encoder  { resolution = <4>; };
+&left_encoder {
+    steps = <80>;
+};
+&right_encoder {
+    steps = <80>;
+};
+sensors {
+    triggers-per-rotation = <20>;
+};
+
 
 / {
     keymap {
