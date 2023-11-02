@@ -10,12 +10,12 @@
 #include <dt-bindings/zmk/keys.h>
 
 // Encoder resolutions
-&left_encoder {
-    steps = <80>;
-};
-&right_encoder {
-    steps = <80>;
-};
+// &left_encoder {
+//     steps = <80>;
+// };
+// &right_encoder {
+//     steps = <80>;
+// };
 
 // nice!view display fix
 &nice_view_spi {
@@ -24,9 +24,9 @@
 
 
 / {
-    sensors {
-        triggers-per-rotation = <20>;
-    };
+    // sensors {
+    //     triggers-per-rotation = <20>;
+    // };
     keymap {
         compatible = "zmk,keymap";
 
