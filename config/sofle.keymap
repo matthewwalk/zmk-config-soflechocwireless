@@ -25,7 +25,7 @@
 
 / {
     sensors {
-        triggers-per-rotation = <4>;
+        triggers-per-rotation = <8>;
     };
     keymap {
         compatible = "zmk,keymap";
